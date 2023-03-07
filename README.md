@@ -16,3 +16,6 @@ Install MariaDB Server
 
 ## zabbix-install.sh
 Install Zabbix agent
+
+## tomcat-keystore.sh
+Create keystore for using in Tomcat
