@@ -17,4 +17,3 @@ https://www.microsoft.com/store/apps/9PN20MSR04DW
 Opção 1 - https://aka.ms/wslubuntu2204
 Opção 2 - Invoke-WebRequest -Uri https://aka.ms/wslubuntu2004 -OutFile Ubuntu.appx -UseBasicParsing
 Opção 3 - curl.exe -L -o ubuntu-2004.appx https://aka.ms/wslubuntu2004
-
