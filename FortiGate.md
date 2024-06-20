@@ -18,3 +18,41 @@ Criar um Acesso Condicional
 Forçar o MFA
 
 Copiar o ID dos grupos atribuídos
+
+# FortiGate
+Importar o certificado
+
+Config user saml
+edit azure
+set cert FortiGate_factory
+set entity-id URL (metadata)
+set single sign on url URL Login
+set single logout url logout
+set idp-entity-id "identificado do Microsoft Entra ID"
+set idp single sign on "URL de logon"
+set idp-single-sign on logout URL de logoff
+set idp-cert Remote_cert_1 (certificado upload)
+set user-name "username"
+set group-name "group"
+next end
+
+config user group
+edit VPN_TI
+set member azure
+config match
+edit 1
+set server-name azure
+set group-name "ID do grupo"
+next
+end
+
+
+
+
+diagnose debug application samld -1
+diagnose debug application fnbamd -1
+diagnose debug enable
+di de di
+
+
+Start-adsynsynccycle -policytype delta
