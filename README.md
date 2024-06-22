@@ -1,9 +1,7 @@
-# scripts
-Scripts for day usage  
-Version: Ubuntu  
+# Scripts diversos
 
-## docker-install.sh
-Install from Docker repository  
+### Docker
+Instalar o Docker do repositorio oficial  
 
 ## nginx-install.sh
 Install Nginx  
