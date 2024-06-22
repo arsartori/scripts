@@ -18,8 +18,8 @@
 ### Atualizar repositorios
 	sudo apt-get update
 
-# install the latest version
+### Instalar a versão atual
 	sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-# Add user to Docker Manager
-	sudo usermod -aG docker usuario
+### Adicionar usuario no grupo Docker
+	sudo usermod -aG docker $USER
