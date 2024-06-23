@@ -10,6 +10,8 @@
 	git checkout master
 	git merge <branch>
 
-### Definir configurações 
-git config --global credential.helper store
-git config --global credential.helper "cache --timeout=86400"
+### Definir configurações
+	git config --global user.name "My Name"
+	git config --global user.email "myemail@example.com" 
+	git config --global credential.helper store
+	git config --global credential.helper "cache --timeout=86400"
