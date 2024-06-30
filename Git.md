@@ -1,5 +1,14 @@
 # Git
 
+### Iniciar umm projeto
+	git init
+
+### Para garantir a compatibilidade do projeto no futuro, alterar a branch master para main
+	git branch -M main
+
+### Compartilhar o repositório através do GituHub
+	git remote add origin https://github.com/USUARIO/REPOSITORIO.git
+
 ### Criar uma nova branch local
 	git checkout -b <New Branch>
 
