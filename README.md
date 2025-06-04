@@ -12,8 +12,5 @@ Install AWS Discovery Agent
 ## mariadb-install.sh
 Install MariaDB Server  
 
-## zabbix-install.sh
-Install Zabbix agent
-
 ## tomcat-keystore.sh
 Create keystore for using in Tomcat
